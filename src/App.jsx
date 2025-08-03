@@ -13,7 +13,7 @@ import {
   GraduationCap,
   Twitter,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./components/ui/button";
 import photo from "./assets/photo.png";
 import sudharshan from "./assets/sudharshan.png";
 import sliderBg from "./assets/slider-bg.png";
@@ -896,9 +896,6 @@ ${formData.message}
                     <p className="text-lg font-semibold text-primary mb-2">
                       Frozen Foods and Products
                     </p>
-                    <span className="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full font-medium">
-                      Successfully Delivered
-                    </span>
                   </div>
 
                   <p className="text-muted-foreground leading-relaxed">
@@ -936,7 +933,7 @@ ${formData.message}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
                       <div>
                         <span className="font-semibold text-foreground">
-                          Live Website:
+                          Live Demo:
                         </span>
                         <a
                           href="https://sudarshanservices.com/"
@@ -944,25 +941,8 @@ ${formData.message}
                           rel="noopener noreferrer"
                           className="text-primary hover:underline ml-1"
                         >
-                          Client Website
+                          Website
                         </a>
-                      </div>
-                      <div>
-                        <span className="font-semibold text-foreground">
-                          Status:
-                        </span>
-                        <span className="text-green-600 ml-1">
-                          Successfully delivered
-                        </span>
-                      </div>
-                      <div>
-                        <span className="font-semibold text-foreground">
-                          Client:
-                        </span>
-                        <span className="text-muted-foreground ml-1">
-                          Sudarshan Services (in collaboration with Samudra
-                          Foods)
-                        </span>
                       </div>
                     </div>
                   </div>
